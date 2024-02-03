@@ -16,6 +16,8 @@ def clean_data(input1, input2, output):
 
     merged_df.to_csv(output, index=False)
 
+    print("Output file shape:", merged_df.shape)
+
 
 if __name__ == "__main__":
     input1 = sys.argv[1]
